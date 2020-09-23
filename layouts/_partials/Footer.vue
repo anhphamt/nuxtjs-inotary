@@ -29,8 +29,7 @@
               to="/chinh-sach-va-dieu-khoan-su-dung"
               prefetch
               >Chính Sách & Điều Khoản Sử Dụng</nuxt-link
-            >
-            |
+            >|
             <a
               href="https://www.facebook.com/Phanmemcongchung.vn"
               target="_blank"
