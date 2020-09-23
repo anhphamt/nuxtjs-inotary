@@ -1,4 +1,7 @@
-# Nuxt.js Project sample
+# i-Notary Website
+
+## Introduction
+i-Notary is designed using [Tailwind CSS](https://tailwindcss.com) and built with [Nuxt.js](https://nuxtjs.org)
 
 ## Build Setup
 
