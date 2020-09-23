@@ -1,0 +1,31 @@
+'data':
+  'server':
+    - 'Cung cấp Server phần cứng (30G SSD lưu trữ, Ram 3G)'
+    - 'Hỗ trợ triển khai dựng phần mềm công chứng'
+    - 'Sửa lỗi trong quá trình vận hành'
+    - 'Backup dữ liệu hàng ngày'
+    - 'Sao lưu dữ liệu Backup ở 2 vị trí khác nhau. Tránh mất dữ liệu'
+    - 'Chứng chỉ bảo mật SSL'
+    - 'Vị trí đặt server (Hà Nội hoặc Hồ Chí Minh)'
+    - 'Cam kết thời gian uptime 99,9%'
+  'otherServices':
+    '1. Hướng dẫn sử dụng':
+      - 'Thông qua hệ thống online: Miễn phí'
+      - 'Lại trụ sở văn phòng hướng dẫn: Liên hệ'
+    '2. Gia hạn bảo hành phần mềm':
+      - 'Năm đầu tiên: Miễn phí'
+      - 'Các năm sau: 7.000.000 đ / năm'
+    '3. Viết thêm tính năng yêu cầu':
+      - 'Chỉnh sửa đơn giản: miễn phí'
+      - 'Chỉnh sửa phức tạp: thỏa thuận'
+      - 'Thêm tính năng mới: thỏa thuận'
+    '4. Chỉnh sửa mẫu hợp đồng':
+      - 'Lần đầu tiên: miễn phí'
+      - 'Các lần sau: 5.000.000 đ / gói'
+    '5. Cấu hình phần mềm':
+      - 'Lần đầu tiên: miễn phí'
+      - 'Các lần sau: 1.000.000 đ / lần'
+    '6. Sửa lỗi Server khách hàng':
+      - 'Cài đặt, cấu hình lần đầu tiên: miễn phí'
+      - 'Các lần sau: 2.000.000 đ / lần'
+      - 'Phục hồi dữ liệu: 2.000.000 đ / lần'

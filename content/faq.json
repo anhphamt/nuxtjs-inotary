@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "title": "Bản quyền phần mềm i-NOTARY ?",
+      "content": "<p>Bản quyền phần mềm là quyền được phép sử dụng phần mềm đó một cách hợp pháp. Việc sử dụng phần mềm không có bản quyền hợp pháp bằng bất kỳ hình thức nào cũng được xem như sao chép phần mềm trái phép. Người vi phạm sẽ bị xử theo luật xâm phạm quyền tác giả.</p><p>Phần mềm được xây dựng để phục vụ công việc hoạt động của Văn phòng công chứng. Tuy nhiên bản quyền phần mềm sẽ do Công ty TNHH Phát Triển Công Nghệ HZ nắm giữ.</p><p>Chúng tôi cam kết các thuật toán, mã hóa, giải mã, quy trình vận hành, dữ liệu khách hàng trong phần mềm sẽ được bảo mật tuyệt đối. Tuy nhiên những công nghệ, mã nguồn được dùng để xây dựng phần mềm này thuộc về chúng tôi (nhóm viết phần mềm) hoặc của tác giả / công ty cung cấp mã nguồn.</p>",
+      "active": 0
+    },
+    {
+      "title": "Tài khoản Phần Mềm do ai phụ trách ?",
+      "content": "<p>Tài khoản nhân viên sử dụng trong phần mềm công chứng i-NOTARY sẽ do nhân viên có quyền Administrator cung cấp (nhân viên được Văn Phòng Công Chứng cấp quyền sử dụng). Tuy nhiên các thông tin cá nhân, mật khẩu sẽ được mã hóa và không ai có thể tra ra (kể cả chúng tôi – Những người viết phần mềm). Do đó bạn có thể hoàn toàn yên tâm về vấn đề bảo mật. Chúng tôi cam kết các thông tin cá nhân của khách hàng sẽ được bảo mật tuyệt đối.</p>",
+      "active": 0
+    },
+    {
+      "title": "Chỗ tôi không có internet, vậy tôi có thể sử dụng phần mềm không ?",
+      "content": "<p>Rất tiếc, điều kiện đầu tiên sử dụng phần mềm là phải có kết nối internet. Lý do đây là phần mềm trực tuyến, dữ liệu ghi nhận theo thời gian thực nên yêu cầu phải có kết nối mạng mới có thể sử dụng đầy đủ tính năng của phần mềm.</p><p>Bạn có thể sử dụng mạng Lan, Wifi, 3G, 4G, 5G để kết nối internet. Từ đó truy cập vào phần mềm công chứng i-NOTARY</p>",
+      "active": 0
+    },
+    {
+      "title": "Tôi có thể truy cập phần mềm bằng các thiết bị khác như Laptop, máy tính bảng, điện thoại khọng ?",
+      "content": "<p>Phần mềm chạy trên nền Web Application nên hoàn toàn tương thích với các thiết bị di động như mobile, máy tính bảng, laptop,v.v… Do đó bạn hoàn toàn có thể truy cập vào bất kỳ thiết bị ở bất kỳ đâu. Miễn là có kết nối Internet.</p><p>Các phiên bản phần mềm hổ trợ</p><ul><li>Laptop, Deasktop: nền web application</li><li>Điện thoại Iphone: sử dụng ứng dụng riêng dành cho hệ điều hành Ios:&nbsp;<a href='#'>Link (đang cập nhật)</a></li><li>Điện thoại Android: sử dụng ứng dụng riêng dành cho hệ điều hành Android:&nbsp;<a href='#'>Link </a><a href='#'>(đang cập nhật)</a></li><li>Các dòng điện thoại khác: sử dụng trên nền tảng web có sẵn trên điện thoại.</li></ul>",
+      "active": 0
+    },
+    {
+      "title": "Tài khoản báo không thể truy cập, vậy tôi phải làm sao ?",
+      "content": "<p>Việc kích hoạt tài khoản truy cập vào hệ thống là do tài khoản có quyền Administrator quyết định (nhân viên văn phòng công chứng nắm quyền Administrator). Do đó việc bạn không thể truy cập vào hệ thống vui lòng liên hệ nhân viên ở Văn phòng Công Chứng nơi bạn đang làm việc. Chúng tôi (người viết ra hệ thống) không có quyền truy cập, chỉnh sửa dữ liệu của Văn Phòng Công Chứng.</p>",
+      "active": 0
+    }
+  ]
+}
