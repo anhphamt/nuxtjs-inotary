@@ -29,8 +29,7 @@
         </button>
         <div
           :class="
-            (item.active ? `show ` : ``) +
-            `bg-gray-100 qa-content px-6 py-4 transition duration-300 ease-in-out`
+            (item.active ? `show ` : ``) + `bg-gray-100 qa-content px-6 py-4`
           "
           v-html="item.content"
         ></div>
@@ -95,9 +94,43 @@ export default {
   },
   methods: {
     setActiveItem(index) {
-      const item = this.qa[index]
+      const item = this.faq[index]
       item.active = item.active ? 0 : 1
     },
+  },
+  head() {
+    return {
+      title: 'Hỏi Đáp về phần mềm công chứng | i-NOTARY FAQ',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Những câu hỏi thường gặp khi sử dụng phần mêm quản lý văn phòng công chứng i-NOTARY. Bản quyền phần mềm, cập nhật tính năng, bảo trì hệ thống, ...',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Hỏi Đáp về phần mềm công chứng | i-NOTARY FAQ',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Những câu hỏi thường gặp khi sử dụng phần mêm quản lý văn phòng công chứng i-NOTARY. Bản quyền phần mềm, cập nhật tính năng, bảo trì hệ thống, ...',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$config.BASE_URL + '/img/banner.png',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.$config.BASE_URL + '/hoi-dap',
+        },
+      ],
+    }
   },
   jsonld() {
     const items = this.faq.map((item, index) => ({

@@ -41,6 +41,40 @@ export default {
 
     return data
   },
-  mounted() {},
+  head() {
+    return {
+      title: 'Hướng dẫn sử dụng phần mềm công chứng | i-NOTARY User Guide',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Cập nhật tính năng mới & Hướng dẫn sử dụng phần mềm quản lý văn phòng công chứng i-NOTARY. Hơn 50 tính năng chuyên biệt và vẫn tiếp tục cập nhật.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content:
+            'Hướng dẫn sử dụng phần mềm công chứng | i-NOTARY User Guide',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Cập nhật tính năng mới & Hướng dẫn sử dụng phần mềm quản lý văn phòng công chứng i-NOTARY. Hơn 50 tính năng chuyên biệt và vẫn tiếp tục cập nhật.',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$config.BASE_URL + '/img/logo.png',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.$config.BASE_URL + '/huong-dan',
+        },
+      ],
+    }
+  },
 }
 </script>

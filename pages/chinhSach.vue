@@ -40,6 +40,40 @@ export default {
 
     return data
   },
-  mounted() {},
+  head() {
+    return {
+      title: 'Chính Sách & Điều Khoản Sử Dụng phần mềm công chứng i-NOTARY',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Chính sách Hoàn trả sản phẩm, chính sách Bảo hành sản phẩm, Thời hạn ước tính cho việc giao hàng hoặc cung ứng dịch vụ, Phương thức thanh toán.',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content:
+            'Chính Sách & Điều Khoản Sử Dụng phần mềm công chứng i-NOTARY',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Chính sách Hoàn trả sản phẩm, chính sách Bảo hành sản phẩm, Thời hạn ước tính cho việc giao hàng hoặc cung ứng dịch vụ, Phương thức thanh toán.',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$config.BASE_URL + '/img/logo.png',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.$config.BASE_URL + '/chinh-sach-va-dieu-khoan-su-dung',
+        },
+      ],
+    }
+  },
 }
 </script>

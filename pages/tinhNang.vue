@@ -140,6 +140,41 @@ export default {
 
     return data
   },
-  mounted() {},
+  head() {
+    return {
+      title:
+        'Tính năng phần mềm quản lý văn phòng công chứng | i-NOTARY Features',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Khám phá hơn 50 tính năng hữu ích của phần mềm quản lý văn phòng công chứng i-NOTARY. Tăng tốc độ làm việc - Kiểm soát dữ liệu hồ sơ - Tùy chỉnh theo nhu cầu',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content:
+            'Tính năng phần mềm quản lý văn phòng công chứng | i-NOTARY Features',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Khám phá hơn 50 tính năng hữu ích của phần mềm quản lý văn phòng công chứng i-NOTARY. Tăng tốc độ làm việc - Kiểm soát dữ liệu hồ sơ - Tùy chỉnh theo nhu cầu',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$config.BASE_URL + '/img/logo.png',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.$config.BASE_URL + '/tinh-nang-i-notary',
+        },
+      ],
+    }
+  },
 }
 </script>

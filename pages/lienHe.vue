@@ -84,6 +84,40 @@ export default {
 
     return data
   },
-  mounted() {},
+  head() {
+    return {
+      title: 'Trải nghiệm miễn phí phần mềm công chứng | i-NOTARY Support',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Liên hệ với chúng tôi để dùng thử miễn phí phần mềm quản lý văn phòng công chứng i-NOTARY qua Email phanmemcongchung.vn@gmail.com hoặc Hotline',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content:
+            'Trải nghiệm miễn phí phần mềm công chứng | i-NOTARY Support',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Liên hệ với chúng tôi để dùng thử miễn phí phần mềm quản lý văn phòng công chứng i-NOTARY qua Email phanmemcongchung.vn@gmail.com hoặc Hotline',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$config.BASE_URL + '/img/logo.png',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.$config.BASE_URL + '/lien-he',
+        },
+      ],
+    }
+  },
 }
 </script>

@@ -26,7 +26,6 @@ export default {
     Slogan,
     Hotline,
   },
-  mounted() {},
   methods: {
     scrollToEl(event) {
       const container = this.$refs[event.el]
@@ -39,9 +38,6 @@ export default {
   },
   head() {
     return {
-      bodyAttrs: {
-        class: 'cms-index-index mobile cms-home',
-      },
       title: 'Phần mềm quản lý văn phòng công chứng i-NOTARY',
       meta: [
         {
@@ -70,13 +66,6 @@ export default {
           hid: 'og:url',
           property: 'og:url',
           content: this.$config.BASE_URL,
-        },
-      ],
-      noscript: [
-        {
-          innerHTML:
-            'Có lỗi xảy ra. Vui lòng cài đặt javascript để tiếp tục sử dụng !',
-          body: true,
         },
       ],
     }

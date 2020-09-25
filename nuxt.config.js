@@ -46,6 +46,13 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' }],
+    noscript: [
+      {
+        innerHTML:
+          'Có lỗi xảy ra. Vui lòng cài đặt javascript để tiếp tục sử dụng !',
+        body: true,
+      },
+    ],
   },
   loading: {
     color: '#ec600b',

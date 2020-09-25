@@ -330,5 +330,41 @@ export default {
       this.timeUse = val == 'purchase' ? 'Sử dụng Vĩnh viễn' : 'Phí hàng tháng'
     },
   },
+  head() {
+    return {
+      title:
+        'Bảng giá phần mềm quản lý văn phòng công chứng | i-NOTARY Pricing',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Có 3 phiên bản phần mềm i-NOTARY tùy theo nhu cầu sử dụng. Bạn có thể chọn MUA/THUÊ theo tháng. Bảo hành phần mềm 12 tháng. Chi phí đã bao gồm 10% thuế VAT',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content:
+            'Bảng giá phần mềm quản lý văn phòng công chứng | i-NOTARY Pricing',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Có 3 phiên bản phần mềm i-NOTARY tùy theo nhu cầu sử dụng. Bạn có thể chọn MUA/THUÊ theo tháng. Bảo hành phần mềm 12 tháng. Chi phí đã bao gồm 10% thuế VAT',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$config.BASE_URL + '/img/bang_gia.png',
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: this.$config.BASE_URL + '/bang-gia',
+        },
+      ],
+    }
+  },
 }
 </script>
